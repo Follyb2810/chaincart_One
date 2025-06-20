@@ -1,0 +1,20 @@
+{
+  "name": "escrowcontract",
+  "version": "1.0.0",
+  "description": "Cosmos Wasm Stargate Example",
+  "main": "deploy.js",
+  "scripts": {
+    "start": "nodemon deploy.js",
+    "interact": "nodemon interact.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "dependencies": {
+    "@cosmjs/cosmwasm-stargate": "^0.33.0",
+    "@cosmjs/proto-signing": "^0.33.0",
+    "@cosmjs/stargate": "^0.33.0",
+    "dotenv": "^16.4.7",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.1.9"
+  }
+}
